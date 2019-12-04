@@ -142,7 +142,7 @@ class GridySprite(SpriteBase):
         eyes_path = random.pickone(paths['eyes'])
         mouth_path = random.pickone(paths['mouth'])
         svg_paths = [
-            '<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">'
+            '<svg {svg_attr} viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">'
             '<defs><clipPath id="clip-a"><rect width="13" height="24" x="0" y="0"></rect></clipPath>',
             '<clipPath id="clip-b"><rect width="12" height="24" x="12" y="0"></rect></clipPath></defs>',
             '<g style="fill: {body_bg1}" clip-path="url(#clip-a)">{body_path}</g>',
@@ -156,6 +156,7 @@ class GridySprite(SpriteBase):
         svg = ''.join(svg_paths)
 
         return svg.format(
+            svg_attr=self.svg_attr,
             body_bg1=body_bg1,
             body_bg2=body_bg2,
             eyes_fg1=eyes_fg1,

@@ -68,11 +68,11 @@ class IdenticonSprite(SpriteBase):
         offset = 0 - self['padding']
         size = 5 + self['padding'] * 2
         paths = [
-            '<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="isolation:isolate" viewBox="{offset} {offset} {size} {size}" version="1.1" shape-rendering="crispEdges">',
+            '<svg {svg_attr} xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="isolation:isolate" viewBox="{offset} {offset} {size} {size}" version="1.1" shape-rendering="crispEdges">',
             '<path d="M{offset} {offset}h{size}v{size}H{offset}V0z" fill="{background}" />',
         ]
         for row in self.rows:
             paths.append(random.pickone(row))
         paths.append("</svg>")
         svg = "".join(paths)
-        return svg.format(color=color, background=self['background'], offset=offset, size=size)
+        return svg.format(svg_attr=self.svg_attr, color=color, background=self['background'], offset=offset, size=size)

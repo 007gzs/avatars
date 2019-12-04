@@ -41,7 +41,7 @@ class BotttsSprite(SpriteBase):
         texture = self.random_from_dict(random, paths.TEXTURE_PATHS)
         top = self.random_from_dict(random, paths.TOP_PATHS)
         svg_paths = [
-            '<svg viewBox="0 0 180 180" xmlns="http://www.w3.org/2000/svg" fill="none">',
+            '<svg {svg_attr} viewBox="0 0 180 180" xmlns="http://www.w3.org/2000/svg" fill="none">',
             self.group(random, sides.format(color=Color(secondary_color)), self['sides_chance'], 0, 66),
             self.group(random, top.format(color=Color(secondary_color)), self['top_change'], 41, 0),
             self.group(random, face.format(
@@ -52,4 +52,5 @@ class BotttsSprite(SpriteBase):
             self.group(random, eyes, 100, 38, 76),
             "</svg>"
         ]
-        return "".join(svg_paths)
+        svg = "".join(svg_paths)
+        return svg.format(svg_attr=self.svg_attr)
