@@ -15,8 +15,11 @@ if __name__ == '__main__':
     test("张三", "identicon_1", IdenticonSprite)
     test("张三", "bottts_1", BotttsSprite)
     test("张三", "initials_1", InitialsSprite)
+    test("张三", "gridy_1", GridySprite)
+
     test("李四", "male_2", MaleSprite)
     test("李四", "female_2", FemaleSprite)
     test("李四", "identicon_2", IdenticonSprite)
     test("李四", "bottts_2", BotttsSprite)
     test("李四", "initials_2", InitialsSprite)
+    test("李四", "gridy_2", GridySprite)
