@@ -1,6 +1,10 @@
 #############################
 Avatars
 #############################
+.. image:: https://travis-ci.org/007gzs/avatars.svg?branch=master
+       :target: https://travis-ci.org/007gzs/avatars
+.. image:: https://img.shields.io/pypi/v/avatars.svg
+       :target: https://pypi.org/project/avatars
 
 多种风格SVG头像生成工具
 
