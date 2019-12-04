@@ -6,7 +6,7 @@ from avatars.sprite import *
 
 def test(name, flag, sprite):
     with open("%s.svg" % flag, 'wb') as f:
-        f.write(sprite().create(name).encode("utf8"))
+        f.write(sprite().create(name).replace("<svg ", '<svg width="64px" height="64px" ').encode("utf8"))
 
 
 if __name__ == '__main__':

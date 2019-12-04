@@ -5,25 +5,15 @@ Avatars
 多种风格SVG头像生成工具
 
 .. image:: https://github.com/007gzs/avatars/raw/master/resource/bottts_1.svg?sanitize=true
-    :width: 64px
 .. image:: https://github.com/007gzs/avatars/raw/master/resource/bottts_2.svg?sanitize=true
-    :width: 64px
 .. image:: https://github.com/007gzs/avatars/raw/master/resource/female_1.svg?sanitize=true
-    :width: 64px
 .. image:: https://github.com/007gzs/avatars/raw/master/resource/female_2.svg?sanitize=true
-    :width: 64px
 .. image:: https://github.com/007gzs/avatars/raw/master/resource/identicon_1.svg?sanitize=true
-    :width: 64px
 .. image:: https://github.com/007gzs/avatars/raw/master/resource/identicon_2.svg?sanitize=true
-    :width: 64px
 .. image:: https://github.com/007gzs/avatars/raw/master/resource/initials_1.svg?sanitize=true
-    :width: 64px
 .. image:: https://github.com/007gzs/avatars/raw/master/resource/initials_2.svg?sanitize=true
-    :width: 64px
 .. image:: https://github.com/007gzs/avatars/raw/master/resource/male_1.svg?sanitize=true
-    :width: 64px
 .. image:: https://github.com/007gzs/avatars/raw/master/resource/male_2.svg?sanitize=true
-    :width: 64px
 
 ********
 安装
