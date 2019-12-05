@@ -25,10 +25,6 @@ class SpriteBase(object):
     def __getitem__(self, item):
         return self.options[item]
 
-    @classmethod
-    def random_from_dict(cls, random, d):
-        return d[random.pickone(sorted(d.keys()))]
-
     def create(self, seed):
         return self.sprite(SeedRandom(seed))
 

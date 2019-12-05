@@ -8,26 +8,63 @@ Avatars
 
 多种风格SVG头像生成工具
 
-.. image:: https://github.com/007gzs/avatars/raw/master/resource/bottts_1.svg?sanitize=true
-    :target: https://github.com/007gzs/avatars/raw/master/resource/bottts_1.svg
-.. image:: https://github.com/007gzs/avatars/raw/master/resource/bottts_2.svg?sanitize=true
-    :target: https://github.com/007gzs/avatars/raw/master/resource/bottts_2.svg
-.. image:: https://github.com/007gzs/avatars/raw/master/resource/female_1.svg?sanitize=true
-    :target: https://github.com/007gzs/avatars/raw/master/resource/female_1.svg
-.. image:: https://github.com/007gzs/avatars/raw/master/resource/female_2.svg?sanitize=true
-    :target: https://github.com/007gzs/avatars/raw/master/resource/female_2.svg
-.. image:: https://github.com/007gzs/avatars/raw/master/resource/identicon_1.svg?sanitize=true
-    :target: https://github.com/007gzs/avatars/raw/master/resource/identicon_1.svg
-.. image:: https://github.com/007gzs/avatars/raw/master/resource/identicon_2.svg?sanitize=true
-    :target: https://github.com/007gzs/avatars/raw/master/resource/identicon_2.svg
-.. image:: https://github.com/007gzs/avatars/raw/master/resource/initials_1.svg?sanitize=true
-    :target: https://github.com/007gzs/avatars/raw/master/resource/initials_1.svg
-.. image:: https://github.com/007gzs/avatars/raw/master/resource/initials_2.svg?sanitize=true
-    :target: https://github.com/007gzs/avatars/raw/master/resource/initials_2.svg
+
+.. image:: https://github.com/007gzs/avatars/raw/master/resource/male_0.svg?sanitize=true
+    :target: https://github.com/007gzs/avatars/raw/master/resource/male_0.svg
+.. image:: https://github.com/007gzs/avatars/raw/master/resource/female_0.svg?sanitize=true
+    :target: https://github.com/007gzs/avatars/raw/master/resource/female_0.svg
+.. image:: https://github.com/007gzs/avatars/raw/master/resource/identicon_0.svg?sanitize=true
+    :target: https://github.com/007gzs/avatars/raw/master/resource/identicon_0.svg
+.. image:: https://github.com/007gzs/avatars/raw/master/resource/bottts_0.svg?sanitize=true
+    :target: https://github.com/007gzs/avatars/raw/master/resource/bottts_0.svg
+.. image:: https://github.com/007gzs/avatars/raw/master/resource/initials_0.svg?sanitize=true
+    :target: https://github.com/007gzs/avatars/raw/master/resource/initials_0.svg
+.. image:: https://github.com/007gzs/avatars/raw/master/resource/gridy_0.svg?sanitize=true
+    :target: https://github.com/007gzs/avatars/raw/master/resource/gridy_0.svg
+.. image:: https://github.com/007gzs/avatars/raw/master/resource/avatio_female_0.svg?sanitize=true
+    :target: https://github.com/007gzs/avatars/raw/master/resource/avatio_female_0.svg
+.. image:: https://github.com/007gzs/avatars/raw/master/resource/avatio_male_0.svg?sanitize=true
+    :target: https://github.com/007gzs/avatars/raw/master/resource/avatio_male_0.svg
+
+----
+
 .. image:: https://github.com/007gzs/avatars/raw/master/resource/male_1.svg?sanitize=true
     :target: https://github.com/007gzs/avatars/raw/master/resource/male_1.svg
+.. image:: https://github.com/007gzs/avatars/raw/master/resource/female_1.svg?sanitize=true
+    :target: https://github.com/007gzs/avatars/raw/master/resource/female_1.svg
+.. image:: https://github.com/007gzs/avatars/raw/master/resource/identicon_1.svg?sanitize=true
+    :target: https://github.com/007gzs/avatars/raw/master/resource/identicon_1.svg
+.. image:: https://github.com/007gzs/avatars/raw/master/resource/bottts_1.svg?sanitize=true
+    :target: https://github.com/007gzs/avatars/raw/master/resource/bottts_1.svg
+.. image:: https://github.com/007gzs/avatars/raw/master/resource/initials_1.svg?sanitize=true
+    :target: https://github.com/007gzs/avatars/raw/master/resource/initials_1.svg
+.. image:: https://github.com/007gzs/avatars/raw/master/resource/gridy_1.svg?sanitize=true
+    :target: https://github.com/007gzs/avatars/raw/master/resource/gridy_1.svg
+.. image:: https://github.com/007gzs/avatars/raw/master/resource/avatio_female_1.svg?sanitize=true
+    :target: https://github.com/007gzs/avatars/raw/master/resource/avatio_female_1.svg
+.. image:: https://github.com/007gzs/avatars/raw/master/resource/avatio_male_1.svg?sanitize=true
+    :target: https://github.com/007gzs/avatars/raw/master/resource/avatio_male_1.svg
+
+----
+
 .. image:: https://github.com/007gzs/avatars/raw/master/resource/male_2.svg?sanitize=true
     :target: https://github.com/007gzs/avatars/raw/master/resource/male_2.svg
+.. image:: https://github.com/007gzs/avatars/raw/master/resource/female_2.svg?sanitize=true
+    :target: https://github.com/007gzs/avatars/raw/master/resource/female_2.svg
+.. image:: https://github.com/007gzs/avatars/raw/master/resource/identicon_2.svg?sanitize=true
+    :target: https://github.com/007gzs/avatars/raw/master/resource/identicon_2.svg
+.. image:: https://github.com/007gzs/avatars/raw/master/resource/bottts_2.svg?sanitize=true
+    :target: https://github.com/007gzs/avatars/raw/master/resource/bottts_2.svg
+.. image:: https://github.com/007gzs/avatars/raw/master/resource/initials_2.svg?sanitize=true
+    :target: https://github.com/007gzs/avatars/raw/master/resource/initials_2.svg
+.. image:: https://github.com/007gzs/avatars/raw/master/resource/gridy_2.svg?sanitize=true
+    :target: https://github.com/007gzs/avatars/raw/master/resource/gridy_2.svg
+.. image:: https://github.com/007gzs/avatars/raw/master/resource/avatio_female_2.svg?sanitize=true
+    :target: https://github.com/007gzs/avatars/raw/master/resource/avatio_female_2.svg
+.. image:: https://github.com/007gzs/avatars/raw/master/resource/avatio_male_2.svg?sanitize=true
+    :target: https://github.com/007gzs/avatars/raw/master/resource/avatio_male_2.svg
+
+
 
 ********
 安装

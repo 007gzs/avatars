@@ -2,6 +2,7 @@
 from __future__ import absolute_import, unicode_literals
 
 # from .avataaars import *
+from .avatio import AvatioFemaleSprite, AvatioMaleSprite, AvatioSprite
 from .bottts import BotttsSprite
 from .female import FemaleSprite
 from .gridy import GridySprite

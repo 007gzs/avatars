@@ -54,17 +54,8 @@ class IdenticonSprite(SpriteBase):
         ),
     )
 
-    def __init__(self, **options):
-        super(IdenticonSprite, self).__init__(**options)
-        self.colors = []
-        color_level = self['color_level']
-        for key in sorted(colors.COLORS.keys()):
-            if not colors.COLORS[key]:
-                continue
-            self.colors.append(colors.COLORS[key].get(color_level, list(colors.COLORS[key].values())[0]))
-
     def sprite(self, random):
-        color = random.pickone(self.colors)
+        color = random.pickone_value_from_dict(colors.COLORS)[self['color_level']]
         offset = 0 - self['padding']
         size = 5 + self['padding'] * 2
         paths = [

@@ -16,8 +16,7 @@ class BotttsSprite(SpriteBase):
         'sides_chance': 100,
         'texture_chance': 50,
         'top_change': 100,
-        'colorful': True,
-        'colors': colors.COLORS
+        'colorful': True
     }
 
     @classmethod
@@ -28,18 +27,18 @@ class BotttsSprite(SpriteBase):
             return ''
 
     def sprite(self, random):
-        primary_colors = self.random_from_dict(random, self['colors'])
-        secondary_colors = self.random_from_dict(random, self['colors'])
+        primary_colors = random.pickone_value_from_dict(colors.COLORS)
+        secondary_colors = random.pickone_value_from_dict(colors.COLORS)
         primary_color = primary_colors.get(self['primary_color_level'], list(primary_colors.values())[0])
         secondary_color = primary_colors.get(self['secondary_color_level'], list(primary_colors.values())[0])
         if not self['colorful']:
             secondary_color = secondary_colors.get(self['secondary_color_level'], list(secondary_colors.values())[0])
-        eyes = self.random_from_dict(random, paths.EYES_PATHS)
-        face = self.random_from_dict(random, paths.FACE_PATHS)
-        mouth = self.random_from_dict(random, paths.MOUTH_PATHS)
-        sides = self.random_from_dict(random, paths.SIDES_PATHS)
-        texture = self.random_from_dict(random, paths.TEXTURE_PATHS)
-        top = self.random_from_dict(random, paths.TOP_PATHS)
+        eyes = random.pickone_value_from_dict(paths.EYES_PATHS)
+        face = random.pickone_value_from_dict(paths.FACE_PATHS)
+        mouth = random.pickone_value_from_dict(paths.MOUTH_PATHS)
+        sides = random.pickone_value_from_dict(paths.SIDES_PATHS)
+        texture = random.pickone_value_from_dict(paths.TEXTURE_PATHS)
+        top = random.pickone_value_from_dict(paths.TOP_PATHS)
         svg_paths = [
             '<svg {svg_attr} viewBox="0 0 180 180" xmlns="http://www.w3.org/2000/svg" fill="none">',
             self.group(random, sides.format(color=Color(secondary_color)), self['sides_chance'], 0, 66),

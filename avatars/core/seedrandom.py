@@ -18,4 +18,5 @@ class SeedRandom(object):
     def pickone(self, arr):
         return arr[self.integer(0, len(arr))]
 
-
+    def pickone_value_from_dict(self, data):
+        return data[self.pickone(sorted(data.keys()))]

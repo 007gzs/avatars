@@ -10,16 +10,23 @@ def test(name, flag, sprite):
 
 
 if __name__ == '__main__':
-    test("张三", "male_1", MaleSprite)
-    test("张三", "female_1", FemaleSprite)
-    test("张三", "identicon_1", IdenticonSprite)
-    test("张三", "bottts_1", BotttsSprite)
-    test("张三", "initials_1", InitialsSprite)
-    test("张三", "gridy_1", GridySprite)
-
-    test("李四", "male_2", MaleSprite)
-    test("李四", "female_2", FemaleSprite)
-    test("李四", "identicon_2", IdenticonSprite)
-    test("李四", "bottts_2", BotttsSprite)
-    test("李四", "initials_2", InitialsSprite)
-    test("李四", "gridy_2", GridySprite)
+    sprites = {
+        "male": MaleSprite,
+        "female": FemaleSprite,
+        "identicon": IdenticonSprite,
+        "bottts": BotttsSprite,
+        "initials": InitialsSprite,
+        "gridy": GridySprite,
+        "avatio_female": AvatioFemaleSprite,
+        "avatio_male": AvatioMaleSprite,
+    }
+    names = ["张三", "李四", "王五"]
+    for i, name in enumerate(names):
+        for flag, sprite in sprites.items():
+            file_name = "%s_%d.svg" % (flag, i)
+            with open(file_name, 'wb') as f:
+                f.write(sprite(width=64).create(name).encode("utf8"))
+            print("""
+.. image:: https://github.com/007gzs/avatars/raw/master/resource/{0}?sanitize=true
+    :target: https://github.com/007gzs/avatars/raw/master/resource/{0}""".format(file_name), end='')
+        print("\n\n----\n", end='')
